@@ -1,0 +1,38 @@
+spring:
+  application:
+    name: "configserver"
+  profiles:
+    active: git
+  cloud:
+    config:
+      server:
+       git:
+         uri: "https://github.com/yedukondalu-thammisetty/spring-cloud-config-server-properties.git"
+         default-label: "main"
+         clone-on-start: true
+         force-pull: true
+         timeout: 5
+#        native:
+#          search-locations: "file:///C://Users//T SRAVAN SURESH//Documents//config"
+#          search-locations: "classpath:/config"
+
+server:
+  port: 8071
+encrypt:
+  key: "QVFr3UmBKSIL1tOOQSMn7GwT3yMgnZQJxd6tyRxlP8Qt0fXSEX"
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+          - "*"
+  health:
+    readinessstate:
+      enabled: true
+    livenessstate:
+      enabled: true
+  endpoint:
+    health:
+      probes:
+        enabled: true
+

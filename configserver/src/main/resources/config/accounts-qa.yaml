@@ -1,0 +1,14 @@
+build:
+  version: "2.0"
+
+accounts:
+  message: "Welcome to EazyBank accounts related QA APIs"
+
+  contactDetails:
+    name: "Seven Hills - QA Lead"
+    email: "sevenhills@eazybank.com"
+
+  onCallSupport:
+    - "(+91) 8978118946"
+    - "(+91) 7013130787"
+

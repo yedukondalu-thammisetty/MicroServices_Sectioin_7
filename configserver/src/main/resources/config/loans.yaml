@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: loans
+
+
+server:
+  port: 8090
+
+build:
+  version: "1.0"
+
+accounts:
+  message: "Welcome to EazyBank accounts related local APIs"
+
+  contactDetails:
+    name: "Yedukondalu - Developer"
+    email: "john@eazybank.com"
+
+  onCallSupport:
+    - "(+91) 8978118946"
+    - "(+91) 7013130787"

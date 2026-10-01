@@ -1,0 +1,15 @@
+
+build:
+  version: "3.0"
+
+accounts:
+  message: "Welcome to EazyBank Loans related Prod APIs"
+
+  contactDetails:
+    name: "Seven Hills - Full Stack Developer"
+    email: "sevenhills@eazybank.com"
+
+  onCallSupport:
+    - "(+91) 8978118946"
+    - "(+91) 7013130787"
+

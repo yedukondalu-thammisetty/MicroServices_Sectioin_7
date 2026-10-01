@@ -1,0 +1,15 @@
+
+
+build:
+  version: "3.0"
+
+accounts:
+  message: "Welcome to EazyBank Cards related Prod APIs"
+
+  contactDetails:
+    name: "Yedukondalu - Full Stack Developer"
+    email: "john@eazybank.com"
+
+  onCallSupport:
+    - "(+91) 8978118946"
+    - "(+91) 7013130787"
